@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Map</string>
-    <string name="map_key">AIzaSyCVxqse5lNPfjle1DcRH42NdlATer0ps_4</string>
-    <string name="normal">Normal</string>
-    <string name="terrain">Terrain</string>
-    <string name="satellite">Satellite</string>
-    <string name="hybrid">Hybrid</string>
-    <string name="none">None</string>
-</resources>

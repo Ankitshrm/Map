@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:padding="25dp"
+        map:cardCornerRadius="20dp"
+        map:cardElevation="20dp"
+        >
+<!--        <EditText-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:maxLines="1"-->
+<!--            android:maxHeight="1"-->
+<!--            max-->
+<!--            >-->
+
+    </androidx.cardview.widget.CardView>
+
+
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</RelativeLayout>
+<!--    map:cameraTargetLat="30.2686"-->
+<!--    map:cameraTargetLng="77.9948"-->
+<!--    map:cameraZoom="18"-->
+<!--    map:mapType="satellite"-->
+
+<!--    />-->
+
+
+
